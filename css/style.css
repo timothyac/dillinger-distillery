@@ -132,6 +132,10 @@ p {
   padding: 1rem;
 }
 
+#navbar .nav-header {
+  font-weight: 700;
+}
+
 #navbar ul {
   display: flex;
   align-items: center;
@@ -171,4 +175,29 @@ p {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Section: history */
+#history .test {
+  display: flex;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+#history .text {
+  flex: 1;
+}
+
+#history .items .item i {
+  background: #1c1c1a;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#history .history-img {
+  flex: 1;
+  background: url("../img/mugshot.png") no-repeat center center/cover;
+  border-radius: 8px;
+  margin-right: 3rem;
 }
