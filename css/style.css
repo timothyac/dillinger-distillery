@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.4;
 }
 
@@ -51,12 +51,14 @@ p {
 }
 
 .l-heading {
+  font-family: "Playfair Display", sans-serif;
   font-size: 4rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
 
 .m-heading {
+  font-family: "Playfair Display", sans-serif;
   font-size: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
@@ -133,7 +135,7 @@ p {
 }
 
 #navbar .nav-header {
-  font-weight: 700;
+  font-family: "Playfair Display", sans-serif;
 }
 
 #navbar ul {
@@ -205,4 +207,28 @@ p {
 /* Section: About Us */
 #aboutus .about-text {
   text-align: center;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
