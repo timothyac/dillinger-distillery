@@ -1,0 +1,22 @@
+{
+  "name": "dillenger-distillery",
+  "version": "1.0.0",
+  "description": "Dillenger Distillery is a example site for my personal portfolio.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunstroUS/dillenger-distillery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunstroUS/dillenger-distillery/issues"
+  },
+  "homepage": "https://github.com/SunstroUS/dillenger-distillery#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
