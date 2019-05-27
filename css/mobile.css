@@ -1,0 +1,68 @@
+/* Smartphones */
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #navbar ul li a {
+    padding: 0.25rem;
+  }
+
+  #showcase {
+    height: calc(100vh - 110px);
+  }
+
+  #showcase .showcase-content {
+    top: 0px;
+  }
+
+  #history {
+    display: block;
+  }
+
+  #history .history-img {
+    display: none;
+  }
+
+  #history .history-flex {
+    margin-top: 0.5rem;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    min-height: 200px;
+    border-top: 4px solid #333;
+  }
+
+  .lead {
+    width: 19rem;
+  }
+}
+
+@media (max-height: 568px) {
+  #showcase .showcase-content {
+    margin-top: -2 rem;
+    top: 140px;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
