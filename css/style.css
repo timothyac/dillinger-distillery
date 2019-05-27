@@ -177,8 +177,8 @@ p {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Section: history */
-#history .test {
+/* Section: History */
+#history .history-flex {
   display: flex;
   padding: 1rem;
   margin-top: 3rem;
@@ -200,4 +200,9 @@ p {
   background: url("../img/mugshot.png") no-repeat center center/cover;
   border-radius: 8px;
   margin-right: 3rem;
+}
+
+/* Section: About Us */
+#aboutus .about-text {
+  text-align: center;
 }
